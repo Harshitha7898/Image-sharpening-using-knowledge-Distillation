@@ -24,19 +24,16 @@ You can use datasets like:
 - GoPro Deblurring Dataset
 - REDS Dataset
 - DIV2K
-- Folder Structure
-```
-  image-sharpening-kd/
-├── models/               # (optional) contains teacher and student models
-│   ├── teacher.py
-│   └── student.py
-├── data/                 # (optional) sample images or instructions to download datasets
-├── utils/                # (optional) helper functions (losses, transforms)
-├── IMAGE SHARPENING USING KNOWLEDGE DISTILLATION.ipynb
-├── requirements.txt
-└── README.md
-```
+
 ## 🚀 How to Run
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   ```
+2. Run the notebook:
+   ```bash
+   jupyter notebook IMAGE\ SHARPENING\ USING\ KNOWLEDGE\ DISTILLATION.ipynb
+   ```
+
+## 📚 Reference
+- Paper: [Restormer: Efficient Transformer for High-Resolution Image Restoration](https://arxiv.org/abs/2111.09881)
